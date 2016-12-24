@@ -16,3 +16,12 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+
+
+var hide_spinner = function(){
+  $('#spinner').hide();
+}
+
+var show_spinner = function(){
+  $('#spinner').show();
+}
